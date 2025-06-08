@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(cors())
 
 // Load BIN data
-const binsPath = path.join(__dirname, "bins.json")
+const binsPath = path.join(__dirname, "bins_su.json")
 let bins = []
 
 try {
